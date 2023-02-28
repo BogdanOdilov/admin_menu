@@ -37,7 +37,7 @@ git clone https://github.com/Bogdan.Odilov/admin_menu
 5. Выполните команду python manage.py syncdb для обновления структуры БД
 6. Запустить сервет python manage.py runserver
 7. Создайте суперюзер python manage.py createsuperuser
-8. Перейдите в админ панель по ссылке [r2h]: http://127.0.0.1:8000/admin/
+8. Перейдите в админ панель по ссылке http://127.0.0.1:8000/admin/
 
 ### Админ панель
 
