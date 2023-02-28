@@ -1,5 +1,5 @@
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-
+[![Python](https://img.shields.io/badge/-Python-464646?style=flat-square&logo=Python)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/-Django-464646?style=flat-square&logo=Django)](https://www.djangoproject.com/)
 # Тестовое задание UpTrader
 
 ### Задание
@@ -18,3 +18,27 @@
 
 При выполнении задания из библиотек следует использовать только Django и стандартную библиотеку Python.
 
+### Настройки
+
+.env:
+```dotenv
+SECRET_KEY= 
+```
+## Запуск проекта
+### Склонировать репозиторий на локальную машину:
+```
+git clone https://github.com/Bogdan.Odilov/admin_menu
+```
+### Для работы
+1. Установить виртуальное окружение python -m venv venv
+2. Активировать виртуальное окружение source venv/scripts/activate
+3. Установить зависимости pip install -r requirements.txt
+4. Выполнить миграции python manage.py migrate
+5. Выполните команду python manage.py syncdb для обновления структуры БД
+6. Запустить сервет python manage.py runserver
+7. Создайте суперюзер python manage.py createsuperuser
+8. Перейдите в админ панель по ссылке [r2h]: http://127.0.0.1:8000/admin/
+
+### Админ панель
+
+![alt text](https://code-live.ru/media/upload/images/2013/07/27/django_mymenu_admin_1.png)
